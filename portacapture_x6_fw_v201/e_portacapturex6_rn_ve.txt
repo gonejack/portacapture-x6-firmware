@@ -1,0 +1,116 @@
+-------------------------------------------------------------------------------------------------------------
+Latest information
+-------------------------------------------------------------------------------------------------------------
+The most recent versions of the firmware/software for this unit are as follows.
+
+Firmware: V2.01 (Previously V2.00 Updated at this time)
+
+Remote control app
+  Portacapture Control: V2.00
+
+Software for Windows (ASIO Driver)
+  TASCAM Portacapture Settings Panel: V1.30
+
+We request that you always use the latest software/firmware version for this unit.
+For information about the latest software/firmware, check the TASCAM Web Site ( https://tascam.jp/int/product/portacapture_x6/support )
+
+==============================================================================================================
+F/W V2.01 (October, 8 2024)
+--------------------------------------------------------------------------------------------------------------
+< Maintenance items >
+- The following issues that occurred in the VOICE, PODCAST, MUSIC, FIELD, and ASMR apps have been fixed.
+　　- When the size of a file exceeded 4 GB during recording, recording would end without a new file being automatically created.
+　　- Recording would continue even after the time set for TIME FILE INCREMENT had elapsed.
+
+--------------------------------------------------------------------------------------------------------------
+F/W V2.00 (Septembert, 18 2024)
+--------------------------------------------------------------------------------------------------------------
+< New functions >
+- MTR application "POCKET STUDIO" has been added.
+
+- A tuner application has been added.
+
+- When recording in MANUAL mode, two mixes were recorded at the same time, but the user can now choose whether to record or not.
+
+- EXPANDED PRE REC mode has been added to the prerecording function available when using the FIELD app.
+
+< Maintenance items >
+- When AUTO TONE was turned on and HOLD was selected immediately after recording started, AUTO TONE would not turn off. This has been fixed.
+
+- When a confirmation pop-up "Is the AC adapter 1.5A or more?" appeared while a phantom power on confirmation pop-up was displayed, the phantom power on confirmation pop-up would disappear. This has been fixed.
+
+- When mixing down large size files while connected via Bluetooth, the system would hang up. This has been fixed.
+
+- Timecode synchronization stability with compatible Atomos products has been improved.
+
+- When switching from the PODCAST app to another app, the recording format settings that were made prior to the PODCAST app are now restored.
+
+- The display of remaining alkaline battery charge has been adjusted.
+
+- Operation stability has been improved in other ways.
+
+-------------------------------------------------------------------------------------------------------------
+F/W V1.11 (August, 1 2023)
+--------------------------------------------------------------------------------------------------------------
+< New functions >
+- Chinese fonts that comply with the GB18030-2022 standard are now supported.
+
+< Maintenance items >
+- When overdubbing and punch in/out operations were conducted in the MANUAL app,
+  recording data would not be stored in extremely rare cases. 
+  This has been fixed.
+
+- Operation stability has been improved in other ways.
+
+-------------------------------------------------------------------------------------------------------------
+F/W V1.10 (May, 24 2023)
+-------------------------------------------------------------------------------------------------------------
+< New functions >
+- Unit settings and recording app settings can now be saved in up to 3 USER SETTINGS
+ and recalled with a single tap from the LAUNCHER screen.
+
+- INPUT SETTINGS, including for the low-cut filter, compressor, limiter, auto gain control, noise gate
+ and other effect functions can now be saved in up to 3 presets and loaded in each recording app.
+
+- Audio interface functions now support the 32 bit float format.
+　The 32 bit float function, which enables the preservation of audio resolution even after adjusting levels,
+  can now also be used when recording to a DAW using this unit as an audio interface.
+ Note: For use with Windows, download the latest ASIO driver (V1.30).
+
+- Support has been added for wireless timecode synchronization with compatible Atomos products, 
+  including AtomX Sync, UltraSync BLUE, ATOMOS CONNECT and Shogun CONNECT.
+ Note: An AK-BT1 Bluetooth adapter (sold separately) is necessary.
+
+- The USB MIX MINUS function can now be used in the PODCAST app.
+　　This can suppress the occurrence of echoes in audio from remote participants when capturing podcasts.
+
+- In addition to built-in mic input, selecting PAD and USB input is now possible when using the PODCAST app.
+
+- When the Portacapture Control remote control app is communicating in the background on a device, 
+  for example, connection with the unit will no longer be interrupted, even if the device itself enters energy-saving mode.
+ Note: This is supported by Portacapture Control version 1.33 and later. Use of Portacapture Control requires an AK-BT1 Bluetooth adapter, which is sold separately.
+
+< Maintenance items >
+- Reverb settings would sometimes change during app and preset selection. This has been fixed.
+
+- Sometimes Manual EQ presets could not be saved for inputs 3 and 4 in 2-channel apps. This has been fixed.
+
+- Sometimes the dB display of tracks linked on the INPUT SETTINGS Screen would not be updated. This has been fixed.
+
+- Mark name data would not be shown properly for files that exceeded 2 GB. This has been fixed.
+
+- Operation stability has been improved in other ways.
+
+-------------------------------------------------------------------------------------------------------------
+F/W V1.02
+-------------------------------------------------------------------------------------------------------------
+< Maintenance items >
+
+- The unit would not start up properly on rare occasions. This has been fixed.
+
+-------------------------------------------------------------------------------------------------------------
+F/W V1.01
+-------------------------------------------------------------------------------------------------------------
+< Maintenance items >
+
+- Operation stability has been improved.
